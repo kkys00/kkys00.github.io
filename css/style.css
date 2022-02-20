@@ -1,0 +1,84 @@
+.hidden {
+    display:none;
+}
+
+body{
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#greeting{
+    font-size: 4em;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    margin-top: 50px;
+}
+
+#clock{
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.background-img{
+    position:absolute;
+    top:0px;
+    width:100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+#quote {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nanum Myeongjo', serif;
+    border-top: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+    font-size: 0.8em;
+    width: 60%;
+    align-items: flex-end;
+}
+
+#weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#todo-form input{
+    border: 1px solid white;
+    background-color: transparent;
+    color:white;
+    width: 40vw;
+}
+
+input::placeholder{
+    color:white;
+    font-style: italic;
+}
+
+input:focus-within {
+    outline: thick double skyblue;
+}
+
+#todo-list{
+    list-style:none;
+    padding: 0;
+}
+
+#todo-list li{
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+}
+
+button{
+    color:white;
+    background-color: transparent;
+    border: 1px solid white;
+}
